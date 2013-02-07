@@ -1,0 +1,22 @@
+{
+	"name" : "stack-json",
+	"description" : "Stack traces in JSON format.",
+	"version" : "0.1.0",
+	"author" : {
+		"name" : "Bjarke Walling",
+		"email" : "bwp@bwp.dk"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/walling/stack-json.git"
+	},
+	"dependencies" : {
+		"stack-chain" : "0.2",
+		"package-lookup" : "0.1"
+	},
+	"license" : "MIT",
+	"engines" : {
+    "node" : "0.8",
+    "npm" : "1"
+  }
+}
