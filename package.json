@@ -6,6 +6,9 @@
 		"name" : "Bjarke Walling",
 		"email" : "bwp@bwp.dk"
 	},
+	"contributers": [
+		{ "name" : "Philip Bruce" }
+	],
 	"repository" : {
 		"type" : "git",
 		"url" : "https://github.com/walling/stack-json.git"
