@@ -1,7 +1,7 @@
 {
 	"name" : "stack-json",
 	"description" : "Stack traces in JSON format.",
-	"version" : "0.1.1",
+	"version" : "0.1.2",
 	"author" : {
 		"name" : "Bjarke Walling",
 		"email" : "bwp@bwp.dk"

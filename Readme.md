@@ -49,7 +49,10 @@ function format(stack) {
 console.log(format(new Error().stackJSON));
 ```
 
+The package information in each stack frame (the `pkg` property) is gathered using the [package-lookup] module.
+
 
 [stack-chain]: https://github.com/AndreasMadsen/stack-chain
 [trace]: https://github.com/AndreasMadsen/trace
 [stack-formatted]: https://github.com/walling/stack-formatted
+[package-lookup]: https://github.com/walling/package-lookup
