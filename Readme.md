@@ -35,6 +35,21 @@ setTimeout(function() {
 }, 100);
 ```
 
+You can create your own formatted stack traces. This is the technique that [stack-formatted] use. Here is a short example:
+
+```javascript
+function format(stack) {
+  return stack.frames.map(function(frame) {
+    return '  ' + frame.pkg.name +
+      '  ' + frame.filename + ':' + frame.line +
+      '  ' + (frame.functionName || '(anon)');
+  }).join('\n');
+}
+
+console.log(format(new Error().stackJSON));
+```
+
 
 [stack-chain]: https://github.com/AndreasMadsen/stack-chain
 [trace]: https://github.com/AndreasMadsen/trace
+[stack-formatted]: https://github.com/walling/stack-formatted
