@@ -14,7 +14,7 @@
 		"url" : "https://github.com/walling/stack-json.git"
 	},
 	"dependencies" : {
-		"stack-chain" : "0.2",
+		"stack-chain" : "1.0",
 		"package-lookup" : "0.1"
 	},
 	"license" : "MIT",
